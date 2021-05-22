@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <!--section header-->
+    <section class="sub-header">
+        <nav>
+            <a href="#" class="logo"><img src="/eduford_img/logo.png" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fas fa-bars" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+               
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our certificate & Online Programs for 2021</h1>
+    </section>
+
+<!--blog page content-->    
+
+<section class="blog">
+    <div class="row">
+        <div class="blog-left">
+            <img src="/eduford_img/certificate.jpg" alt="">
+            <h2>Our certificate & Online Programs for 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae magnam sequi alias eaque adipisci eos asperiores perspiciatis doloremque omnis aperiam at praesentium eum, unde dolor expedita ad non. Placeat!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae magnam sequi alias eaque adipisci eos asperiores perspiciatis doloremque omnis aperiam at praesentium eum, unde dolor expedita ad non. Placeat!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae magnam sequi alias eaque adipisci eos asperiores perspiciatis doloremque omnis aperiam at praesentium eum, unde dolor expedita ad non. Placeat!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae magnam sequi alias eaque adipisci eos asperiores perspiciatis doloremque omnis aperiam at praesentium eum, unde dolor expedita ad non. Placeat!</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="email address">
+                    <textarea rows="5" placeholder="Comment here"></textarea>
+                    <button type="submit" class="hero-btn">Post the comments</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>COmputer Science</span>
+                <span>50</span>
+            </div>
+            <div>
+                <span>Journalist</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Cmmmerce</span>
+                <span>15</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--footer section-->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, ab exercitationem placeat officia, optio repellat <br>animi tempora quisquam deserunt nihil nemo? Soluta distinctio nemo reiciendis debitis illo ratione blanditiis dolorum.</p>
+    <div class="social-icon">
+    <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/></a>
+        </div>
+     <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/instagram-new.png"/></a>
+    </div>
+    <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/telegram-app.png"/></a>
+    </div>
+    <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/twitter.png"/></a>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+<!--javascript-->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu(){
+            navlink.style.right = "0";
+        }
+        function hidemenu(){
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

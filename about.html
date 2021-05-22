@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <!--section header-->
+    <section class="sub-header">
+        <nav>
+            <a href="#" class="logo"><img src="/eduford_img/logo.png" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fas fa-bars" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+               
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+
+ <!--about us content -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed voluptatem aut accusamus itaque qui quaerat ratione! Impedit magni, velit iusto ea facilis placeat quis, molestiae aut natus explicabo necessitatibus.</p>
+            <a href="#" class="hero-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="/eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+<!--footer section-->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, ab exercitationem placeat officia, optio repellat <br>animi tempora quisquam deserunt nihil nemo? Soluta distinctio nemo reiciendis debitis illo ratione blanditiis dolorum.</p>
+    <div class="social-icon">
+    <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/></a>
+        </div>
+     <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/instagram-new.png"/></a>
+    </div>
+    <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/telegram-app.png"/></a>
+    </div>
+    <div class="social-item">
+        <a href="#"><img src="https://img.icons8.com/doodle/48/000000/twitter.png"/></a>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+<!--javascript-->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu(){
+            navlink.style.right = "0";
+        }
+        function hidemenu(){
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
